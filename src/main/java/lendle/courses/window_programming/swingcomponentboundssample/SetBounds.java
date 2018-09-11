@@ -31,6 +31,7 @@ public class SetBounds {
         textField.setBounds(160, 50, 200, 30);
         frame.add(label);
         frame.add(textField);
+        //test
         frame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
